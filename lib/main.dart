@@ -105,6 +105,9 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             TextFormField(
+              decoration: const InputDecoration(
+                hintText: "Entrez un nombre"
+              ),
               onChanged: (value) {},
             ),
             const Text(
